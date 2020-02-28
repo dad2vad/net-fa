@@ -4,7 +4,7 @@ const getId = require('./utils/getId')
 
 const q = faunadb.query
 const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SERVER_SECRET
+  secret: "fnADluvTONACAr8_LnhzOyiGDEOr7bgRP4EVXkbO"
 })
 
 exports.handler = async (event, context) => {
