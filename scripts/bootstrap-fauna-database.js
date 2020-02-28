@@ -1,4 +1,6 @@
 /* bootstrap database in your FaunaDB account */
+process.env.FAUNADB_SERVER_SECRET="fnADlurXWmACAElYo-ryFNzhqrNrBj3CPxoYh10n"
+
 const faunadb = require('faunadb')
 const chalk = require('chalk')
 const insideNetlify = insideNetlifyBuildContext()
